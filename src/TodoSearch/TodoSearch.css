@@ -1,0 +1,25 @@
+.TodoSearch {
+    background: #F9FBFC;
+    border-radius: 10px;
+    border: 2px solid #202329;
+    margin: 0 24px;
+    height: 64px;
+    width: calc(100% - 62px);
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #1E1E1F;
+    border: none;
+  }
+  
+  .TodoSearch::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+  }
+
+  .TodoSearch:focus{
+    outline: none;
+  }
+
+  
